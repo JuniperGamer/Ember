@@ -6,6 +6,7 @@ Ember is a lightweight code-scanning framework designed to help developers detec
 
 ## Features
 
+### Ember#:
 - Scans code for common malicious patterns using regular expressions.
 - Provides an initial level of defense against common code injection attacks.
 - Allows developers to review flagged code and decide whether it's malicious.
