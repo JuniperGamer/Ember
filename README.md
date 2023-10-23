@@ -10,6 +10,9 @@ Ember is a lightweight code-scanning framework designed to help developers detec
 - Scans code for common malicious patterns using regular expressions.
 - Provides an initial level of defense against common code injection attacks.
 - Allows developers to review flagged code and decide whether it's malicious.
+- Comes packaged with MALlib, a malicious code library.
+- Can be paired and customised with different libraries or custom code
+- Can be used for scanning just for code, if code is lost and you can not be bothered searching through files for one piece of code, Ember# can help.
 
 ### EmberFS:
 - EmberFS allows users to search for files on their computer based on a specific query or keyword.
